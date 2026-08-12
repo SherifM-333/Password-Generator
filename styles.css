@@ -47,6 +47,10 @@ body {
     background-color: #4ADF86;
 }
 
+#card-generate-btn:active {
+    background-color: #10B981;
+}
+
 hr {
     margin-top: 40px;
     border: none;
@@ -55,6 +59,7 @@ hr {
 
 #password-container {
     display: flex;
+    flex-direction: row;
     gap: 150px;
     justify-content: space-evenly;
     align-items: center;
@@ -71,4 +76,12 @@ hr {
     height: 50px;
     background-color: #2F3E53;
     border-radius: 6px;
+}
+
+#pass-one-text, #pass-two-text {
+    text-align: center;
+    color: #4ADF86;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: lighter;
 }
